@@ -125,7 +125,6 @@ Para mapear energía → CO2:
 ⚠️ **Privacidad**: Necesitas ser cuidadoso con qué datos recopilas
 
 ---
-¡Excelente pregunta! Estas apps son particularmente complejas porque consumen recursos de múltiples formas. Te explico qué estadísticas deberías rastrear para cada una:
 
 ## Análisis por Tipo de App
 
