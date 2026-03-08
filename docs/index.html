@@ -1,155 +1,279 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NetZero: Hacia la Neutralidad de la Huella Digital</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <h1>NetZero: Hacia la Neutralidad de la Huella Digital​</h1>
-            <img src="resources/drawables/logo.png" alt="Logo de NetZero" class="logo">
-        </header>
+      <header>
+        <h1>NetZero: <br />La Neutralidad de la Huella Digital​</h1>
+        <img
+          src="resources/drawables/logo.png"
+          alt="Logo de NetZero"
+          class="logo"
+          ,
+          width="100%"
+        />
+      </header>
 
-        <section>
-            <h2>Documento de Alcance</h2>
-            <p>Documento de alcance de la aplicación en donde se especifica la serie de especificaciones que va a cumplir.</p>
-            <div class="center-image">
-                <img src="resources/drawables/corporativo.png" alt="Imagen corporativa">
-            </div>
-        </section>
+      <section>
+        <h2>Documento de Alcance</h2>
+        <p>
+          Documento de alcance de la aplicación en donde se especifica la serie
+          de especificaciones que va a cumplir.
+        </p>
+        <div id="imagen-alcance">
+          <img
+            src="resources/drawables/corporativo.png"
+            alt="Imagen corporativa"
+          />
+        </div>
+      </section>
 
-        <section>
-            <h2>Historia de usuario</h2>
-            <ul>
-                <li>Como usuario quiero que me dé el tiempo de uso de cada aplicación para saber cuánto tiempo paso en cada aplicación.</li>
-                <li>Como usuario quiero que me dé la huella de carbono que produzco cada vez que utilizo una aplicación para poder ser consciente de mi huella de carbono digital.</li>
-                <li>Como usuario quiero que me ponga en un ranking de cuánta huella de carbono produce mi dispositivo para poder ser consciente de mi huella de carbono digital.</li>
-                <li>Como usuario quiero que me compare cuánta huella de carbono he producido con algo más visual para poder ser consciente de mi huella de carbono digital.</li>
-                <li>Como usuario quiero que pueda exportar los datos en un PDF para poder exponerlo de una forma sencilla.</li>
-                <li>Como empresa quiero poder agregar a todos mis empleados para poder saber la huella de carbono digital que tiene mi organización.</li>
-            </ul>
-        </section>
+      <section>
+        <h2>Historia de usuario</h2>
+        <ul>
+          <li>
+            Como usuario quiero que me dé el tiempo de uso de cada aplicación
+            para saber cuánto tiempo paso en cada aplicación.
+          </li>
+          <li>
+            Como usuario quiero que me dé la huella de carbono que produzco cada
+            vez que utilizo una aplicación para poder ser consciente de mi
+            huella de carbono digital.
+          </li>
+          <li>
+            Como usuario quiero que me ponga en un ranking de cuánta huella de
+            carbono produce mi dispositivo para poder ser consciente de mi
+            huella de carbono digital.
+          </li>
+          <li>
+            Como usuario quiero que me compare cuánta huella de carbono he
+            producido con algo más visual para poder ser consciente de mi huella
+            de carbono digital.
+          </li>
+          <li>
+            Como usuario quiero que pueda exportar los datos en un PDF para
+            poder exponerlo de una forma sencilla.
+          </li>
+          <li>
+            Como empresa quiero poder agregar a todos mis empleados para poder
+            saber la huella de carbono digital que tiene mi organización.
+          </li>
+        </ul>
+      </section>
 
-        <section>
-            <h2>Funcionalidades</h2>
-            <ul>
-                <li>Multilenguaje, se incluirá Español e Inglés pero también se planteará meter otros lenguajes orientales como puede ser Mandarín e Hindú.</li>
-                <li>Intuitiva y accesible.</li>
-                <li>Poder filtrar y ordenar las aplicaciones.</li>
-                <li>Creación de un backend para guardar histórico y por dispositivo para compararlo y ver estadísticas globales (Ver por empresa, zonas...).</li>
-            </ul>
-        </section>
+      <section>
+        <h2>Funcionalidades</h2>
+        <ul>
+          <li>
+            Multilenguaje, se incluirá Español e Inglés pero también se
+            planteará meter otros lenguajes orientales como puede ser Mandarín e
+            Hindú.
+          </li>
+          <li>Intuitiva y accesible.</li>
+          <li>Poder filtrar y ordenar las aplicaciones.</li>
+          <li>
+            Creación de un backend para guardar histórico y por dispositivo para
+            compararlo y ver estadísticas globales (Ver por empresa, zonas...).
+          </li>
+        </ul>
+      </section>
 
-        <section>
-            <h2>Descripciones de las pantallas</h2>
+      <section>
+        <h2>Descripciones de las pantallas</h2>
 
-            <h3>Pantalla Principal</h3>
-            <ul>
-                <li>Objetos con los datos totales de huella de carbono digital y de tiempo de uso del día.</li>
-                <li>Objetos con los datos de las cinco aplicaciones que más gastan ordenados de la que más gasta a la que menos.</li>
-            </ul>
-            <div class="image-container">
-                <figure>
-                    <img src="resources/drawables/pantallaPrincipal.png" alt="Pantalla principal móvil" width="200"/>
-                </figure>
-            </div>
+        <h3>Pantalla Principal</h3>
+        <ul>
+          <li>
+            Objetos con los datos totales de huella de carbono digital y de
+            tiempo de uso del día.
+          </li>
+          <li>
+            Objetos con los datos de las cinco aplicaciones que más gastan
+            ordenados de la que más gasta a la que menos.
+          </li>
+        </ul>
+        <div class="image-container">
+          <figure>
+            <img
+              src="resources/drawables/pantallaPrincipal.png"
+              alt="Pantalla principal móvil"
+              width="200"
+            />
+          </figure>
+        </div>
 
-            <h4>Apartado: Pantalla Principal Web</h4>
-            <ul>
-                <li>Dashboard web con métricas globales de huella de carbono digital y tiempo de uso diario.</li>
-                <li>Gráficos interactivos mostrando las aplicaciones más consumidas.</li>
-                <li>Navegación intuitiva hacia otras secciones de la plataforma web.</li>
-            </ul>
-            <div class="center-image">
-                <img src="resources/drawables/pantallaPrincipalWeb.png" alt="Pantalla principal web" width="400"/>
-            </div>
+        <h4>Apartado: Pantalla Principal Web</h4>
+        <ul>
+          <li>
+            Dashboard web con métricas globales de huella de carbono digital y
+            tiempo de uso diario.
+          </li>
+          <li>
+            Gráficos interactivos mostrando las aplicaciones más consumidas.
+          </li>
+          <li>
+            Navegación intuitiva hacia otras secciones de la plataforma web.
+          </li>
+        </ul>
+        <div class="image-container">
+          <figure>
+            <img
+              src="resources/drawables/pantallaPrincipalWeb.png"
+              alt="Pantalla principal web"
+              width="80%"
+            />
+          </figure>
+        </div>
 
-            <h3>Pantalla detalles</h3>
-            <p>Vista del gasto de cada aplicación desarrollado con datos más útiles.</p>
-            <div class="image-container">
-                <figure>
-                    <img src="resources/drawables/pantallaDetalleEjemplo1.png" alt="Pantalla de login de la app" width="200"/>
-                </figure>
-                <figure>
-                    <img src="resources/drawables/pantallaDetalleEjemplo2.png" alt="Pantalla de login de la app" width="200"/>
-                </figure>
-                <figure>
-                    <img src="resources/drawables/pantallaDetalleEjemplo3.png" alt="Pantalla de login de la app" width="200"/>
-                </figure>
-            </div>
+        <h3>Pantalla detalles</h3>
+        <p>
+          Vista del gasto de cada aplicación desarrollado con datos más útiles.
+        </p>
+        <div class="image-container">
+          <figure>
+            <img
+              src="resources/drawables/pantallaDetalleEjemplo1.png"
+              alt="Pantalla de login de la app"
+              width="200"
+            />
+          </figure>
+          <figure>
+            <img
+              src="resources/drawables/pantallaDetalleEjemplo2.png"
+              alt="Pantalla de login de la app"
+              width="200"
+            />
+          </figure>
+          <figure>
+            <img
+              src="resources/drawables/pantallaDetalleEjemplo3.png"
+              alt="Pantalla de login de la app"
+              width="200"
+            />
+          </figure>
+        </div>
 
-            <h3>Pantalla Ranking</h3>
-            <ul>
-                <li>Vista del ranking de gasto energético personal en tu empresa.</li>
-                <li>Vista del ranking de gasto energético en tu zona.</li>
-                <li>Vista del ranking de gasto energético global.</li>
-                <li>Vista de tu puesto en cada ranking.</li>
-            </ul>
-            <div class="image-container">
-                <figure>
-                    <img src="resources/drawables/PantallaRanking1.png" alt="Pantalla de login de la app" width="200"/>
-                </figure>
-                <figure>
-                    <img src="resources/drawables/PantallaRanking2.png" alt="Pantalla de login de la app" width="200"/>
-                </figure>
-                <figure>
-                    <img src="resources/drawables/PantallaRanking3.png" alt="Pantalla de login de la app" width="200"/>
-                </figure>
-            </div>
+        <h3>Pantalla Ranking</h3>
+        <ul>
+          <li>Vista del ranking de gasto energético personal en tu empresa.</li>
+          <li>Vista del ranking de gasto energético en tu zona.</li>
+          <li>Vista del ranking de gasto energético global.</li>
+          <li>Vista de tu puesto en cada ranking.</li>
+        </ul>
+        <div class="image-container">
+          <figure>
+            <img
+              src="resources/drawables/PantallaRanking1.png"
+              alt="Pantalla de login de la app"
+              width="200"
+            />
+          </figure>
+          <figure>
+            <img
+              src="resources/drawables/PantallaRanking2.png"
+              alt="Pantalla de login de la app"
+              width="200"
+            />
+          </figure>
+          <figure>
+            <img
+              src="resources/drawables/PantallaRanking3.png"
+              alt="Pantalla de login de la app"
+              width="200"
+            />
+          </figure>
+        </div>
 
-            <h3>Pantalla Estadísticas</h3>
-            <ul>
-                <li>Vista semanal, mensual y anual de los datos.</li>
-                <li>Gráficos del gasto de carbono personal con gráficos reactivos.</li>
-                <li>Comparativas con los datos anteriores.</li>
-                <li>Opción de exportación de los datos a PDF.</li>
-            </ul>
-            <div class="image-container">
-                <figure>
-                    <img src="resources/drawables/pantallaEstadisticas.png" alt="Pantalla estadísticas móvil" width="200"/>
-                </figure>
-            </div>
+        <h3>Pantalla Estadísticas</h3>
+        <ul>
+          <li>Vista semanal, mensual y anual de los datos.</li>
+          <li>
+            Gráficos del gasto de carbono personal con gráficos reactivos.
+          </li>
+          <li>Comparativas con los datos anteriores.</li>
+          <li>Opción de exportación de los datos a PDF.</li>
+        </ul>
+        <div class="image-container">
+          <figure>
+            <img
+              src="resources/drawables/pantallaEstadisticas.png"
+              alt="Pantalla estadísticas móvil"
+              width="200"
+            />
+          </figure>
+        </div>
 
-            <h4>Apartado: Pantalla Estadísticas Web</h4>
-            <ul>
-                <li>Visualización avanzada de datos históricos: semanal, mensual y anual.</li>
-                <li>Gráficos dinámicos y comparativas con períodos anteriores.</li>
-                <li>Exportación de reportes en PDF y otros formatos para análisis detallado.</li>
-            </ul>
-            <div class="center-image">
-                <img src="resources/drawables/pantallaEstadisticasWeb.png" alt="Pantalla estadísticas web" width="400"/>
-            </div>
+        <h4>Apartado: Pantalla Estadísticas Web</h4>
+        <ul>
+          <li>
+            Visualización avanzada de datos históricos: semanal, mensual y
+            anual.
+          </li>
+          <li>Gráficos dinámicos y comparativas con períodos anteriores.</li>
+          <li>
+            Exportación de reportes en PDF y otros formatos para análisis
+            detallado.
+          </li>
+        </ul>
+        <div class="image-container">
+          <figure>
+            <img
+              src="resources/drawables/pantallaEstadisticasWeb.png"
+              alt="Pantalla estadísticas web"
+              width="70%"
+            />
+          </figure>
+        </div>
 
-            <h3>Pantalla Configuración</h3>
-            <ul>
-                <li>Vista de los datos del usuario.</li>
-                <li>Configuraciones del sistema (Idioma, modo claro/oscuro y generales).</li>
-                <li>Opción de cerrar sesión.</li>
-            </ul>
-            <div class="image-container">
-                <figure>
-                    <img src="resources/drawables/PantallaConfiguracion.png" alt="Pantalla de configuración" width="200"/>
-                </figure>
-            </div>
+        <h3>Pantalla Configuración</h3>
+        <ul>
+          <li>Vista de los datos del usuario.</li>
+          <li>
+            Configuraciones del sistema (Idioma, modo claro/oscuro y generales).
+          </li>
+          <li>Opción de cerrar sesión.</li>
+        </ul>
+        <div class="image-container">
+          <figure>
+            <img
+              src="resources/drawables/PantallaConfiguracion.png"
+              alt="Pantalla de configuración"
+              width="200"
+            />
+          </figure>
+        </div>
 
-            <h3>Pantalla Clasificación</h3>
-            <ul>
-                <li>Evaluación de la huella de carbono personal mediante una escala de letras de A a F.</li>
-                <li>A: Excelente (huella mínima, hábitos sostenibles).</li>
-                <li>B: Muy bueno (huella moderada, oportunidades de mejora).</li>
-                <li>C: Bueno (huella promedio, necesita atención).</li>
-                <li>D: Regular (huella alta, requiere cambios significativos).</li>
-                <li>E: Malo (huella muy alta, requiere cambios urgentes).</li>
-                <li>F: Muy Malo (huella excesiva, acción inmediata necesaria).</li>
-                <li>Recomendaciones personalizadas basadas en la clasificación obtenida.</li>
-            </ul>
-            <div class="center-image">
-                <img src="resources/drawables/pantallaClasificacion.png" alt="Pantalla Clasificación" width="400"/>
-            </div>
-        </section>
+        <h3>Pantalla Clasificación</h3>
+        <ul>
+          <li>
+            Evaluación de la huella de carbono personal mediante una escala de
+            letras de A a F.
+          </li>
+          <li>A: Excelente (huella mínima, hábitos sostenibles).</li>
+          <li>B: Muy bueno (huella moderada, oportunidades de mejora).</li>
+          <li>C: Bueno (huella promedio, necesita atención).</li>
+          <li>D: Regular (huella alta, requiere cambios significativos).</li>
+          <li>E: Malo (huella muy alta, requiere cambios urgentes).</li>
+          <li>F: Muy Malo (huella excesiva, acción inmediata necesaria).</li>
+          <li>
+            Recomendaciones personalizadas basadas en la clasificación obtenida.
+          </li>
+        </ul>
+        <div class="image-container">
+          <figure>
+            <img
+              src="resources/drawables/pantallaClasificacion.png"
+              alt="Pantalla Clasificación"
+              width="70%"
+            />
+          </figure>
+        </div>
+      </section>
     </div>
-</body>
+  </body>
 </html>
