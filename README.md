@@ -26,14 +26,27 @@ Documento de alcance de la aplicacion en donde se especifica la serie de especif
 
 ## Descripciones de las pantallas
 
+
 ### Pantalla Principal
 
-- Objetos con los datos totales de huella de caarbono digital y de tiempo de uso del dia.
-- Objetos con los datos de las cinco aplicaciones que mas gastan ordenados de de la que mas gasta a la que menos.
+- Objetos con los datos totales de huella de carbono digital y de tiempo de uso del día.
+- Objetos con los datos de las cinco aplicaciones que más gastan ordenados de la que más gasta a la que menos.
 
 <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 30px;">
   <figure style="text-align: center;">
-    <img src="resources/drawables/pantallaPrincipal.png" alt="Pantalla de login de la app" width="200"/>
+    <img src="resources/drawables/pantallaPrincipal.png" alt="Pantalla principal móvil" width="200"/>
+  </figure>
+</div>
+
+#### Apartado: Pantalla Principal Web
+
+- Dashboard web con métricas globales de huella de carbono digital y tiempo de uso diario.
+- Gráficos interactivos mostrando las aplicaciones más consumidas.
+- Navegación intuitiva hacia otras secciones de la plataforma web.
+
+<div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 30px;">
+  <figure style="text-align: center;">
+    <img src="resources/drawables/pantallaPrincipalWeb.png" alt="Pantalla principal web" width="400"/>
   </figure>
 </div>
 
@@ -74,15 +87,29 @@ Documento de alcance de la aplicacion en donde se especifica la serie de especif
     </figure>
   </div>
 
-### Pantalla Estadisticas
+
+### Pantalla Estadísticas
 
 - Vista semanal, mensual y anual de los datos.
-- Graficos del gasto de carbono personal con graficos reactivos.
+- Gráficos del gasto de carbono personal con gráficos reactivos.
 - Comparativas con los datos anteriores.
-- Opcion de exportacion de los datos a pdf.
+- Opción de exportación de los datos a PDF.
+
 <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 30px;">
   <figure style="text-align: center;">
-    <img src="resources/drawables/pantallaEstadisticas.png" alt="Pantalla de login de la app" width="200"/>
+    <img src="resources/drawables/pantallaEstadisticas.png" alt="Pantalla estadísticas móvil" width="200"/>
+  </figure>
+</div>
+
+#### Apartado: Pantalla Estadísticas Web
+
+- Visualización avanzada de datos históricos: semanal, mensual y anual.
+- Gráficos dinámicos y comparativas con períodos anteriores.
+- Exportación de reportes en PDF y otros formatos para análisis detallado.
+
+<div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 30px;">
+  <figure style="text-align: center;">
+    <img src="resources/drawables/pantallaEstadisticasWeb.png" alt="Pantalla estadísticas web" width="400"/>
   </figure>
 </div>
 
@@ -94,5 +121,22 @@ Documento de alcance de la aplicacion en donde se especifica la serie de especif
 <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 30px;">
   <figure style="text-align: center;">
     <img src="resources/drawables/PantallaConfiguracion.png" alt="Pantalla de login de la app" width="200"/>
+  </figure>
+</div>
+
+### Pantalla Clasificación
+
+- Evaluación de la huella de carbono personal mediante una escala de letras de A a F.
+- A: Excelente (huella mínima, hábitos sostenibles).
+- B: Muy bueno (huella moderada, oportunidades de mejora).
+- C: Bueno (huella promedio, necesita atención).
+- D: Regular (huella alta, requiere cambios significativos).
+- E: Malo (huella muy alta, requiere cambios urgentes).
+- F: Muy Malo (huella excesiva, acción inmediata necesaria).
+- Recomendaciones personalizadas basadas en la clasificación obtenida.
+
+<div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 30px;">
+  <figure style="text-align: center;">
+    <img src="resources/drawables/pantallaClasificacion.png" alt="Pantalla Clasificación" width="400"/>
   </figure>
 </div>
