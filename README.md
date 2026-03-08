@@ -1,12 +1,12 @@
 # NetZero: Hacia la Neutralidad de la Huella Digital​
 
-![alt text](resources/drawables/logo.png)
+![alt text](docs/resources/drawables/logo.png)
 
 ## Documento de Alcance
 
 Documento de alcance de la aplicacion en donde se especifica la serie de especificaciones que va a cumplir.
 
-![alt text](resources/drawables/corporativo.png)
+![alt text](docs/resources/drawables/corporativo.png)
 
 ## Historia de usuario
 
@@ -34,7 +34,7 @@ Documento de alcance de la aplicacion en donde se especifica la serie de especif
 
 <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 30px;">
   <figure style="text-align: center;">
-    <img src="resources/drawables/pantallaPrincipal.png" alt="Pantalla principal móvil" width="200"/>
+    <img src="docs/resources/drawables/pantallaPrincipal.png" alt="Pantalla principal móvil" width="200"/>
   </figure>
 </div>
 
@@ -46,7 +46,7 @@ Documento de alcance de la aplicacion en donde se especifica la serie de especif
 
 <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 30px;">
   <figure style="text-align: center;">
-    <img src="resources/drawables/pantallaPrincipalWeb.png" alt="Pantalla principal web" width="400"/>
+    <img src="docs/resources/drawables/pantallaPrincipalWeb.png" alt="Pantalla principal web" width="400"/>
   </figure>
 </div>
 
@@ -55,15 +55,15 @@ Documento de alcance de la aplicacion en donde se especifica la serie de especif
 - Vista del gasto de cada aplicacion desarrollado con datos mas utiles.
   <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 30px;">
     <figure style="text-align: center;">
-      <img src="resources/drawables/pantallaDetalleEjemplo1.png" alt="Pantalla de login de la app" width="200"/>
+      <img src="docs/resources/drawables/pantallaDetalleEjemplo1.png" alt="Pantalla de login de la app" width="200"/>
     </figure>
 
     <figure style="text-align: center;">
-      <img src="resources/drawables/pantallaDetalleEjemplo2.png" alt="Pantalla de login de la app" width="200"/>
+      <img src="docs/resources/drawables/pantallaDetalleEjemplo2.png" alt="Pantalla de login de la app" width="200"/>
     </figure>
 
     <figure style="text-align: center;">
-      <img src="resources/drawables/pantallaDetalleEjemplo3.png" alt="Pantalla de login de la app" width="200"/>
+      <img src="docs/resources/drawables/pantallaDetalleEjemplo3.png" alt="Pantalla de login de la app" width="200"/>
     </figure>
   </div>
 
@@ -75,15 +75,15 @@ Documento de alcance de la aplicacion en donde se especifica la serie de especif
 - Vista de tu puesto en cada ranking.
   <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 30px;">
     <figure style="text-align: center;">
-      <img src="resources/drawables/PantallaRanking1.png" alt="Pantalla de login de la app" width="200"/>
+      <img src="docs/resources/drawables/PantallaRanking1.png" alt="Pantalla de login de la app" width="200"/>
     </figure>
 
     <figure style="text-align: center;">
-      <img src="resources/drawables/PantallaRanking2.png" alt="Pantalla de login de la app" width="200"/>
+      <img src="docs/resources/drawables/PantallaRanking2.png" alt="Pantalla de login de la app" width="200"/>
     </figure>
 
     <figure style="text-align: center;">
-      <img src="resources/drawables/PantallaRanking3.png" alt="Pantalla de login de la app" width="200"/>
+      <img src="docs/resources/drawables/PantallaRanking3.png" alt="Pantalla de login de la app" width="200"/>
     </figure>
   </div>
 
@@ -97,7 +97,7 @@ Documento de alcance de la aplicacion en donde se especifica la serie de especif
 
 <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 30px;">
   <figure style="text-align: center;">
-    <img src="resources/drawables/pantallaEstadisticas.png" alt="Pantalla estadísticas móvil" width="200"/>
+    <img src="docs/resources/drawables/pantallaEstadisticas.png" alt="Pantalla estadísticas móvil" width="200"/>
   </figure>
 </div>
 
@@ -109,7 +109,7 @@ Documento de alcance de la aplicacion en donde se especifica la serie de especif
 
 <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 30px;">
   <figure style="text-align: center;">
-    <img src="resources/drawables/pantallaEstadisticasWeb.png" alt="Pantalla estadísticas web" width="400"/>
+    <img src="docs/resources/drawables/pantallaEstadisticasWeb.png" alt="Pantalla estadísticas web" width="400"/>
   </figure>
 </div>
 
@@ -120,7 +120,7 @@ Documento de alcance de la aplicacion en donde se especifica la serie de especif
 - Opcion de cerrar sesión.
 <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 30px;">
   <figure style="text-align: center;">
-    <img src="resources/drawables/PantallaConfiguracion.png" alt="Pantalla de login de la app" width="200"/>
+    <img src="docs/resources/drawables/PantallaConfiguracion.png" alt="Pantalla de login de la app" width="200"/>
   </figure>
 </div>
 
@@ -137,6 +137,6 @@ Documento de alcance de la aplicacion en donde se especifica la serie de especif
 
 <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 30px;">
   <figure style="text-align: center;">
-    <img src="resources/drawables/pantallaClasificacion.png" alt="Pantalla Clasificación" width="400"/>
+    <img src="docs/resources/drawables/pantallaClasificacion.png" alt="Pantalla Clasificación" width="400"/>
   </figure>
 </div>
